@@ -144,11 +144,22 @@ body {
   .title {
     font-size: 30px;
   }
+
 }
 
 @media (max-width: 991px) {
   #home {
     min-height: 600px;
+  }
+  .tech-section {
+    margin-top: 0px !important;
+  }
+
+  .positioning span {
+    font-size: 50px;
+  }
+  .positioning h1 {
+    font-size: 50px;
   }
 }
 
@@ -170,11 +181,13 @@ body {
 
 .tech-section {
   margin-top: 400px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
@@ -183,7 +196,7 @@ body {
 
 .parent2 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 10px;
